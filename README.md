@@ -1,2 +1,19 @@
 # CmdThrottlePolicy
-sample showing how to use the DX12 CmdThrottlePolicy Extension
+
+This sample demonstrates the use of the Command Throttle Policy extension with a simple matrix multiplication compute shader kernel.
+
+To validate the extension is working correctly, just build and run the sample. If you want to verify the performance difference with
+the extension engaged vs. not engaged, run it one time without any parameters, and run it again with the additional flag
+`--disable-command-throttle-policy-extension`.
+
+
+Supported command line parameters:
+- --disable-command-throttle-policy-extension\
+  Don't use the command throttle policy extension. By default we will set the command throttle\
+  policy to MAX_PERFORMANCE with the Command Throttle Policy Extension.
+
+- --check-gpu-result\
+  Do matrix multiplication on CPU and compare the result with the one on GPU.
+
+- -h\
+  Print helper information.
