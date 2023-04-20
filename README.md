@@ -6,9 +6,9 @@ To validate the extension is working correctly, just build and run the sample. I
 the extension engaged vs. not engaged, run it one time without any parameters, and run it again with the additional flag
 `--disable-command-throttle-policy-extension`.
 
-The sample relies on an external dependency, `DXSampleHelper.h` from the DirectX SDK Samples available at https://github.com/microsoft/DirectX-Graphics-Samples/tree/master. 
+The sample relies on an external dependency, `DXSampleHelper.h` from the DirectX SDK Samples available at https://github.com/microsoft/DirectX-Graphics-Samples/tree/master. Copy this to the project folder.
 
-This sample relies on the Intel Extensions static library available at: https://github.com/GameTechDev/D3DExtensions_public
+This sample relies on the Intel Extensions static library available at: https://github.com/GameTechDev/D3DExtensions_public. Copy this to `..\CmdThrottlePolicy\IntelExtension\lib`.
 
 Supported command line parameters:
 - --disable-command-throttle-policy-extension\
