@@ -8,7 +8,7 @@ the extension engaged vs. not engaged, run it one time without any parameters, a
 
 The sample relies on an external dependency, `DXSampleHelper.h` from the DirectX SDK Samples available at https://github.com/microsoft/DirectX-Graphics-Samples/tree/master. Copy this to the project folder.
 
-This sample relies on the Intel Extensions static library available at: https://github.com/GameTechDev/D3DExtensions_public. Copy this to `..\CmdThrottlePolicy\IntelExtension\lib`.
+This sample relies on the Intel Extensions static library available at: https://github.com/GameTechDev/64-bit-Typed-Atomics-Extension/blob/main/INTC_Atomic_64bit_Max/bin/x64/Debug/igdext64.lib or https://github.com/GameTechDev/D3DExtensions_public. Copy this to `..\CmdThrottlePolicy\IntelExtension\lib`. 
 
 Supported command line parameters:
 - --disable-command-throttle-policy-extension\
